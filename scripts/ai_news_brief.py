@@ -13,7 +13,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 import anthropic
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 
 # ── Accounts in Han's X "AI + News" list ─────────────────────────────────────
 AI_NEWS_ACCOUNTS = [
