@@ -5,7 +5,7 @@ on:
     # 7:00 AM ET (UTC-5 standard / UTC-4 daylight)
     # Using 12:00 UTC to hit ~7 AM ET in winter; shifts to 8 AM ET during DST
     # To lock to exactly 7 AM ET year-round, a Lambda/Cloud Scheduler is needed.
-    - cron: '0 12 * * *'
+    - cron: '0 11 * * *'
   # Allow manual trigger from the Actions tab
   workflow_dispatch:
 
